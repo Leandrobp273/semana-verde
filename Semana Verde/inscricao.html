@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semana Verde 2026 - Inscrição</title>
+  <link rel="stylesheet" href="style/style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav id="menu">
+      <div class="logo">Semana Verde</div>
+      <div class ="redirecionamentos">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="programacao.html">Programação</a></li>
+        <li><a href="palestrantes.html">Palestrantes</a></li>
+        <li><a href="inscricao.html">Inscrição</a></li>
+      </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="formulario">
+    <h1>Inscrição</h1>
+    <form>
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="area">Área de Interesse</label>
+      <select id="area" name="area">
+        <option>Energias renováveis</option>
+        <option>Inovação</option>
+        <option>Ciência</option>
+      </select>
+
+      <label for="mensagem">Mensagem</label>
+      <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+      <button class = "botao-inscricao" type="submit">Enviar Inscrição</button>
+
+    </form>
+  </main>
+
+  <footer>
+    <p> 2026 Semana Verde | Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
